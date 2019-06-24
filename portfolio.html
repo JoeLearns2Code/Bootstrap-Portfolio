@@ -6,22 +6,27 @@
         Portfolio Page - Bootstrap Edition
     </title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- Additional CSS & Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Skranji|Teko&display=swap" rel="stylesheet">
 </head>
 
-<body background=assets/images/fabric_1.png> <!-- Nav Bar -->
+<body> <!-- Nav Bar -->
     <div class="container" style="max-width: 100%">
         <div class="row">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light pl-5 float-sm-left"
                 style="padding-top: 0vh; padding-bottom: 0vh; width: 100%; font-family: Arial, Helvetica, sans-serif; background-color:#ffffff !important; border-bottom: 3px solid #cccccc">
                 <h2
-                    style="font-family: Georgia, 'Times New Roman', Times, serif;text-align: center; background-color: #44aaaa; font-weight: 700; padding: 3vh; margin-bottom: 0vh; margin-left: 9vw; color: #ffffff">
+                    style="font-family: 'Acme', sans-serif; font-size: 32pt; text-align: center; background-color: #B22222; font-weight: 700; padding: 2vh; margin-bottom: 0vh; margin-left: 2vw; width: 10em; color: #ffffff">
                     Joe Hutchinson</h2>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -29,9 +34,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto pr-5" style="margin-right: 15vw; color: #777777 !important">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <ul class="navbar-nav ml-auto pr-5" style="margin-left: auto; text-align: right; color: #777777 !important">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Portfolio</a>
@@ -50,35 +55,36 @@
         </div>
         <div class="row">
             <div class="container"
-                style="background-color: #ffffff; max-width: 70%; margin-top: 1vh; margin-bottom: 4vh; margin-left: 15vw; padding: 2em; position: relative">
+                style="background-color: #ffffff; max-width: 90%; margin-top: 1vh; margin-bottom: 4vh; margin-left: 5vw; padding: 2em; position: relative">
                 <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 700; color: #44aaaa">
                     Portfolio</h1>
                 <hr style="max-height: 1px; max-width: 100%; background-color: #777777">
                 <div class="row">
-                    <div class="col-xl-4">
-                        <div class="card" style="width: 18rem;">
-                            <a href="https://joelearns2code.github.io/Train-Scheduler/"><img class="card-img-top" src="assets/images/train.jpg" alt="train"></a>
-                            <div class="card-body">
+                    <div class="col-sm-6 col-md-6 col-xl-4">
+                        <div class="card" style="width: 16em">
+                            <a href="https://joelearns2code.github.io/Train-Scheduler/"><img class="card-img-top" src="assets/images/train.jpg" alt="train" style ="width: 16em; height: 16em;"></a>
+                            <div class="card-body" style="width: 16em">
                                 <p class="card-text"
                                     style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#44aaaa; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
                                     Train-Scheduler</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="card" style="width: 18rem">
-                            <a href="https://joelearns2code.github.io/Word-Guess-Game/"><img class="card-img-top" src="assets/images/under-construction.png" alt="Lord Vader"></a>
-                            <div class="card-body">
+                    <div class="col-sm-6 col-md-6 col-xl-4">
+                        <div class="card" style="width: 16em">
+                            <a href="https://joelearns2code.github.io/TriviaGame/"><img class="card-img-top" src="assets/images/pirate.jpg" alt="pirate" style ="width: 16em; height: 16em;"></a>
+                            <div class="card-body" style="width: 16em">
                                 <p class="card-text"
                                     style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#44aaaa; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Star Wars Word Game</p>
+                                    Pirate Trivia</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="card" style="width: 18rem">
-                            <a href="https://joelearns2code.github.io/unit-4-game/"><img class="card-img-top" src="assets/images/dwarf.jpg"  alt="miner dwarf"></a>
-                            <div class="card-body">
+                    
+                    <div class="col-sm-6 col-md-6 col-xl-4">
+                        <div class="card" style="width: 16em">
+                            <a href="https://joelearns2code.github.io/unit-4-game/"><img class="card-img-top" src="assets/images/dwarf.jpg"  alt="miner dwarf" style ="width: 16em; height: 16em;"></a>
+                            <div class="card-body" style="width: 16em">
                                 <p class="card-text"
                                     style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#44aaaa; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
                                     Gem Hunter</p>
@@ -88,23 +94,24 @@
 
                 </div>
                 <div class="row">
-                    <div class="col-xl-4">
-                        <div class="card" style="width: 18rem">
-                            <a href="https://joelearns2code.github.io/GifTastic/"><img class="card-img-top" src="assets/images/fighter_GIPHY.gif" alt="Ken punch"></a>
-                            <div class="card-body">
+                    <div class="col-sm-6 col-md-6 col-xl-4">
+                        <div class="card" style="width: 16em">
+                            <a href="https://joelearns2code.github.io/GifTastic/"><img class="card-img-top" src="assets/images/fighter_GIPHY.gif" alt="Ken punch" style ="width: 16em; height: 16em;"></a>
+                            <div class="card-body" style="width: 16em">
                                 <p class="card-text"
                                     style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#44aaaa; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
                                     GIPHY Fighters</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="card" style="width: 18rem">
-                            <a href="https://joelearns2code.github.io/TriviaGame/"><img class="card-img-top" src="assets/images/pirate.jpg" alt="pirate"></a>
-                            <div class="card-body">
+                    
+                    <div class="col-sm-6 col-md-6 col-xl-4">
+                        <div class="card" style="width: 16em">
+                            <a href="https://joelearns2code.github.io/Word-Guess-Game/"><img class="card-img-top" src="assets/images/under-construction.png" alt="Lord Vader" style ="width: 16em; height: 16em;"></a>
+                            <div class="card-body" style="width: 16em">
                                 <p class="card-text"
                                     style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#44aaaa; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Pirate Trivia</p>
+                                    Star Wars Word Game</p>
                             </div>
                         </div>
                     </div>

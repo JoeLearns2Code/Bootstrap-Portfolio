@@ -1,0 +1,21 @@
+    
+body {
+
+    background: url("../images/Foggy_Forest_Mountains_Tree.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+    }
+
+
+#test {
+
+font-family: 'Acme', sans-serif;
+font-size: 60pt;
+color: red;
+font-weight: bold;
+
+}
