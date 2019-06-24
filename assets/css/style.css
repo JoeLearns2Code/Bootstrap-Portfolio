@@ -14,10 +14,33 @@ body {
 }
 
 
+.myBio {
 
+ font-family: 'Montserrat', sans-serif;
+ font-size: 14pt;
+ line-height: 25px;
+
+
+
+
+}
 
 
 /* MEDIA QUERIES */
+
+
+@media screen and (max-width: 980px) {
+    #myPic {
+       
+    
+
+
+    }
+  
+
+  
+  }
+
 
 @media screen and (max-width: 768px) {
   #myName {
