@@ -54,38 +54,76 @@
             </nav>
         </div>
         <!-- Contact section -->
-        <div class="row">
-            <div class="container"
-                style="background-color: #ffffff; max-width: 65%; margin-top: 5vh; margin-bottom: 4vh; margin-left: 17.5vw; padding: 2em; position: relative">
-                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 700; color: #44aaaa">
-                    Contact</h2>
-                <hr style="max-height: 1px; max-width: 100%; background-color: #777777">
-                <form style="font-family: Arial, Helvetica, sans-serif; color: #777777; padding: 2em">
-                    <ul>
-                        <li class="row" style="padding: 1em">
+            <div class="container">
 
-                            <label style="padding-right: 2.35em">Name:</label>
-                            <input type="text" name="name" class="form-control input-sm" placeholder="Joe Schmoe"
-                                required="required">
+                <div class="row">
+    
+                    <div class="col-lg-8 col-lg-offset-2" style="background-color: #F5DEB3; padding: 2em; margin-top: 3em">
+                        <h2 style="font-family: 'Fondamento', cursive, Times, serif; font-size: 20pt; font-weight: 700; color: #228B22">
+                            Contact</h2>
+                        <hr style="max-height: 1px; max-width: 100%; background-color: #777777">
+                        
+                        <form id="contact-form" method="post" action="contact.php" role="form">
 
-                        </li>
-                        <li class="row" style="padding: 1em">
-                            <label style="padding-right: 2.5em">Email:</label>
-                            <input type="email" name="email" class="form-control input-sm"
-                                placeholder="example@gmail.com" required="required">
-                        </li>
-                        <li class="row" style="padding: 1em; max-width: 100%">
-                            <label style="padding-right: 1em">Message:</label>
-                            <textarea id="message" name="message" class="form-control input-sm"
-                                required="required"></textarea>
-                        </li>
-                        <li class="row" style="padding: 1em"><button type="button" class="btn btn-primary btn-lg"
-                                style="background: #44aaaa; margin-left: 0vw; margin-top: 1vh">Submit</button></li>
-                    </ul>
-
-                </form>
+                            <div class="messages"></div>
+                        
+                            <div class="controls">
+                        
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Firstname *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Lastname *</label>
+                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">Email *</label>
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_phone">Phone</label>
+                                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Message *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    </div>
+                                </div>
+                                
+                                </div>
+                            </div>
+                        
+                        </form>
+    
+                    </div>
+    
+                </div>
+    
             </div>
-        </div>
 
     </div>
 
