@@ -1,6 +1,15 @@
 # Bootstrap Portfolio Web Page
 
-I have attempted to recreate my original portfolio webpage through exclusive use of Bootstrap classes(no CSS utilized).  
+This version of my coding portfolio page was updated on 6/2019.  It utilizes modified bootstrap templates as well as CSS styling.  
+
+GitHub repositories of projects referenced on the portfolio page can be accessed here:
+
+Life Relocated: https://github.com/JoeLearns2Code/Project-1
+Pirate Trivia: https://github.com/JoeLearns2Code/TriviaGame
+Gem Hunter: https://github.com/JoeLearns2Code/Gem-Hunter
+Train Scheduler: https://github.com/JoeLearns2Code/Train-Scheduler
+GIPHY Fighters: https://github.com/JoeLearns2Code/GifTastic
+Star Wars Word Game: https://github.com/JoeLearns2Code/Word-Guess-Game
 
 ## Getting Started
 
@@ -23,21 +32,36 @@ Next, navigate to the folder you wish to download the data into via GitBash or T
 
 ## Testing
 
+Open files in browser and make sure they are properly formatted. Your eyes are the test.
+
 HTML can be validated here: https://validator.w3.org/#validate_by_input
+
+JS logic can be tested in Chrome by using the Inspect feature, and going to the Console tab. Enter in a function to test the results.
 
 Page scaling can be tested via Chrome using this extension: https://chrome.google.com/webstore/detail/browser-width/mlnegepkjlccabakompdmbcmdieaideh?hl=en-US
 
-The goal of this project was to attempt to get the elements to scale properly in the following widths: 980px, 768px, 640px.  
+The goal of this project was to attempt to get the elements to scale properly in multiple viewports.
 
+##Deployment
+
+Navigate to https://github.com/ to clone.
 
 ## Built With
 
 Visual Studio Code: https://code.visualstudio.com/
+Bootstrap 3: https://getbootstrap.com/ 
 
 ## Contributing
 
-If you have any suggestions or would like to iterate upon this project for your own learning, please feel free to pull the files.
+If you would like to learn more about this project feel free to contact me for more information.
 
+## Versioning
+
+Use github for version control (https://github.com/your/project/tags).
+
+##In development
+
+This page will continue to evolve and grow until such time as I find gainful employment.
 
 ## Author
 
@@ -45,5 +69,10 @@ If you have any suggestions or would like to iterate upon this project for your 
 
 
 ## Acknowledgments
+
+* Joe Rehfuss
+* Trae Shanks
+* Lan Truong
+* James Hanley
 
 * Thank you again to my Coding Boot Camp instructors for all of the support and constructive feedback.
