@@ -73,6 +73,6 @@ This page will continue to evolve and grow until such time as I find gainful emp
 * Joe Rehfuss
 * Trae Shanks
 * Lan Truong
-* James Hanley
+* James Liu
 
-* Thank you again to my Coding Boot Camp instructors for all of the support and constructive feedback.
+Thank you again to my Coding Boot Camp instructors for all of the support and constructive feedback.
