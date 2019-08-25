@@ -20,7 +20,6 @@ body {
  font-size: 14pt;
  line-height: 25px;
 
-
 }
 
 #contact-form {
@@ -29,6 +28,15 @@ body {
   font-size: 14pt;
   line-height: 25px;
 
+}
+
+#navEmail {
+  color: white;
+  margin-right: 3em;
+}
+
+#navPhone {
+  color: white;
 }
 
 
@@ -42,7 +50,7 @@ body {
 
 
     }
-  
+
 
   
   }
@@ -52,10 +60,5 @@ body {
   #myName {
     width: 6em !important;
   }
-
-
-
-
-
 
 }
