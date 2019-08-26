@@ -22,6 +22,17 @@ body {
 
 }
 
+.descTechText {
+  padding: 1em;
+  font-size: 12pt;
+  line-height: 20px;
+}
+
+.unBold {
+  font-weight: bold;
+
+}
+
 #contact-form {
 
   font-family: 'Montserrat', sans-serif;
@@ -30,13 +41,20 @@ body {
 
 }
 
+#myName {
+  margin-right: 1em;
+
+}
+
 #navEmail {
   color: white;
-  margin-right: 3em;
+  margin-right: 2em;
+  font-size: 14pt
 }
 
 #navPhone {
   color: white;
+  font-size: 14pt
 }
 
 
