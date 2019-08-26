@@ -4,12 +4,12 @@ This version of my coding portfolio page was updated on 6/2019.  It utilizes mod
 
 GitHub repositories of projects referenced on the portfolio page can be accessed here:
 
-Life Relocated: https://github.com/JoeLearns2Code/Project-1
-Pirate Trivia: https://github.com/JoeLearns2Code/TriviaGame
-Gem Hunter: https://github.com/JoeLearns2Code/Gem-Hunter
-Train Scheduler: https://github.com/JoeLearns2Code/Train-Scheduler
-GIPHY Fighters: https://github.com/JoeLearns2Code/GifTastic
-Star Wars Word Game: https://github.com/JoeLearns2Code/Word-Guess-Game
+Life Relocated: https://github.com/JoeLearns2Code/Project-1  
+Pirate Trivia: https://github.com/JoeLearns2Code/TriviaGame  
+Gem Hunter: https://github.com/JoeLearns2Code/Gem-Hunter  
+Train Scheduler: https://github.com/JoeLearns2Code/Train-Scheduler  
+GIPHY Fighters: https://github.com/JoeLearns2Code/GifTastic  
+Star Wars Word Game: https://github.com/JoeLearns2Code/Word-Guess-Game  
 
 ## Getting Started
 

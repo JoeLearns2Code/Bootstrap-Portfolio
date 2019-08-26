@@ -20,6 +20,16 @@ body {
  font-size: 14pt;
  line-height: 25px;
 
+}
+
+.descTechText {
+  padding: 1em;
+  font-size: 12pt;
+  line-height: 20px;
+}
+
+.unBold {
+  font-weight: bold;
 
 }
 
@@ -29,6 +39,22 @@ body {
   font-size: 14pt;
   line-height: 25px;
 
+}
+
+#myName {
+  margin-right: 1em;
+
+}
+
+#navEmail {
+  color: white;
+  margin-right: 2em;
+  font-size: 14pt
+}
+
+#navPhone {
+  color: white;
+  font-size: 14pt
 }
 
 
@@ -42,7 +68,7 @@ body {
 
 
     }
-  
+
 
   
   }
@@ -52,10 +78,5 @@ body {
   #myName {
     width: 6em !important;
   }
-
-
-
-
-
 
 }

@@ -1,298 +1,550 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>
-        Portfolio Page - Bootstrap Edition
+      Portfolio Page - Bootstrap Edition
     </title>
     <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <!-- Additional CSS & Google Fonts -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+      <!--
+      Bootstrap
+      CSS
+      --
+    />
     <link
-        href="https://fonts.googleapis.com/css?family=Aclonica|Adamina|Alegreya|Cinzel+Decorative|El+Messiri|Fondamento|Gabriela|Laila|Montserrat|Rambla&display=swap"
-        rel="stylesheet">
-</head>
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Additional CSS & Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aclonica|Adamina|Alegreya|Cinzel+Decorative|El+Messiri|Fondamento|Gabriela|Laila|Montserrat|Rambla&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Nav Bar -->
     <div class="container" style="max-width: 100%">
-        <div class="row">
+      <div class="row">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light pl-5 float-sm-left"
+          style="padding-top: 0vh; padding-bottom: 0vh; width: 100%; font-family: Arial, Helvetica, sans-serif; background-color:#343a40  !important; border-bottom: 3px solid #228B22"
+        >
+          <h1
+            id="myName"
+            style="font-family: 'El Messiri', sans-serif; font-size: 30pt; text-align: center; font-weight: 700; padding: 2vh; margin-bottom: 0vh; margin-left: 0vw; width: 8em; color: #ffffff"
+          >
+            Joe Hutchinson
+          </h1>
+          <p
+            id="navEmail"
+            style="font-family: 'El Messiri', sans-serif; color: #ffffff"
+          >
+            email: netharos@gmail.com
+          </p>
+          <p
+            id="navPhone"
+            style="font-family: 'El Messiri', sans-serif; color: #ffffff"
+          >
+            phone: (425)214-4049
+          </p>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNav"
+            style="color: #ffffff"
+          >
+            <ul
+              class="navbar-nav ml-auto pr-5"
+              style="text-align: right; color: #777777 !important"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: #ffffff"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #ffffff"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color: #ffffff"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="row">
+        <div
+          class="container"
+          style="background-color: #F5DEB3; max-width: 85%; margin-top: .5vh; margin-bottom: 4vh; margin-left: 7vw; padding: 2em; position: relative"
+        >
+          <h2
+            style="font-family: 'Fondamento', cursive; font-weight: 700; font-size: 20pt; color: #228B22; padding-bottom: -2em"
+          >
+            Portfolio
+          </h2>
+          <hr
+            style="max-height: 1px; max-width: 100%; background-color: #777777"
+          />
+          <div class="row" style="justify-content: space-between">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em;">
+                <a href="https://joelearns2code.github.io/Life-Relocated/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/life_relocated.PNG"
+                    alt="life relocated"
+                    style="width: 16em; height: 16em;"
+                /></a>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light pl-5 float-sm-left"
-                style="padding-top: 0vh; padding-bottom: 0vh; width: 100%; font-family: Arial, Helvetica, sans-serif; background-color:#343a40  !important; border-bottom: 3px solid #228B22">
-                <h1 id=myName
-                    style="font-family: 'El Messiri', sans-serif; font-size: 30pt; text-align: center; font-weight: 700; padding: 2vh; margin-bottom: 0vh; margin-left: 0vw; width: 8em; color: #ffffff">
-                    Joe Hutchinson</h1>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav" style="color: #ffffff">
-                    <ul class="navbar-nav ml-auto pr-5" style="text-align: right; color: #777777 !important">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html" style="color: #ffffff">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: #ffffff">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html" style="color: #ffffff">Contact</a>
-                        </li>
-
-                    </ul>
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Life Relocated
+                  </p>
                 </div>
-
-
-
-
-            </nav>
-        </div>
-        <div class="row">
-            <div class="container"
-                style="background-color: #F5DEB3; max-width: 85%; margin-top: .5vh; margin-bottom: 4vh; margin-left: 7vw; padding: 2em; position: relative">
-                <h2 style="font-family: 'Fondamento', cursive; font-weight: 700; font-size: 20pt; color: #228B22; padding-bottom: -2em">
-                    Portfolio</h2>
-                <hr style="max-height: 1px; max-width: 100%; background-color: #777777">
-                <div class="row" style="justify-content: space-between">
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em;">
-                            <a href="https://joelearns2code.github.io/Project-1/"><img class="card-img-top"
-                                    src="assets/images/life_relocated.PNG" alt="life relocated" style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Life Relocated</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/Project-1" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em;">
-                            <a href="https://spawtted.herokuapp.com/"><img class="card-img-top"
-                                    src="assets/images/sPAWtted.PNG" alt="spawtted" style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    sPAWtted</p>
-                            </div>
-                            <a href="https://github.com/devinpoore/sPawtted" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://joelearns2code.github.io/TriviaGame/"><img class="card-img-top"
-                                    src="assets/images/pirate.jpg" alt="pirate" style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Pirate Trivia</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/TriviaGame" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://joelearns2code.github.io/Gem-Hunter/"><img class="card-img-top"
-                                    src="assets/images/dwarf.jpg" alt="miner dwarf"
-                                    style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Gem Hunter</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/Gem-Hunter" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://github.com/JoeLearns2Code/Bamazon/"><img class="card-img-top"
-                                    src="assets/images/Bamazon.gif" alt="bamazon"
-                                    style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Bamazon</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/Bamazon" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://github.com/JoeLearns2Code/liri-node-app"><img class="card-img-top"
-                                    src="assets/images/liri_bot.gif" alt="liri"
-                                    style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Liri-Bot</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/liri-node-app" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
+                <a
+                  href="https://github.com/JoeLearns2Code/Life-Relocated"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                  <p>
+                    <u class="unBold">Description:</u> (Collaboration)  Life Relocated is a moving/relocation app that makes API calls to Google Maps and Wolfram Alpha to provide location & demographic information about a desired location.
+                  </p>
+                  <br />
+                  <p>
+                    <u class="unBold">Technologies Used:</u> HTML5, CSS3, jQuery, AJAX
+                  </p>
                 </div>
-                <div class="row" style="justify-content: space-between">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://joelearns2code.github.io/Train-Scheduler/"><img class="card-img-top"
-                                    src="assets/images/train.jpg" alt="train" style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Train-Scheduler</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/Train-Scheduler" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://joelearns2code.github.io/GifTastic/"><img class="card-img-top"
-                                    src="assets/images/fighter_GIPHY.gif" alt="Ken punch"
-                                    style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    GIPHY Fighters</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/GifTastic" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://github.com/JoeLearns2Code/Constructor-Word-Guess"><img class="card-img-top"
-                                    src="assets/images/wordconstructor.gif" alt="word constructor"
-                                    style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Word Guess Game</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/Constructor-Word-Guess" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://jl2cburgerapp.herokuapp.com/"><img class="card-img-top"
-                                    src="assets/images/burger.PNG" alt="burger"
-                                    style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Burger</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/Burger" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://joelearns2code.github.io/Word-Guess-Game/"><img class="card-img-top"
-                                    src="assets/images/darth-vaderimg.jpg" alt="Lord Vader"
-                                    style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Star Wars Word Game</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/Word-Guess-Game" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                        <div class="card" style="width: 16em; margin-bottom: 1em">
-                            <a href="https://jl2cfriendfindapp.herokuapp.com/"><img class="card-img-top"
-                                    src="assets/images/friendfinder.PNG" alt="friend finder"
-                                    style="width: 16em; height: 16em;"></a>
-                            <div class="card-body" style="width: 16em">
-                                <p class="card-text"
-                                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt">
-                                    Friend Finder</p>
-                            </div>
-                            <a href="https://github.com/JoeLearns2Code/FriendFinder" style="text-align: center; font-family: Arial, Helvetica, sans-serif">View on GitHub</a>
-                        </div>
-                    </div>
-
-                </div>
+              </div>
             </div>
 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em;">
+                <a href="https://spawtted.herokuapp.com/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/sPAWtted.PNG"
+                    alt="spawtted"
+                    style="width: 16em; height: 16em;"
+                /></a>
 
-            <footer class="page-footer font-small grey fixed-bottom"
-                style="padding-top: 0vh; padding-bottom: 0vh; width: 100%; font-family: Arial, Helvetica, sans-serif; background-color:#343a40 !important; border-top: 3px solid #228B22; color: #ffffff">
-
-
-                <div class="footer-copyright text-center py-3">Copyright©
-                    <a href="https://github.com/JoeLearns2Code" target="_blank">
-                        <i class="fa fa-github"><img src="assets/images/GitHub-Mark-32px.png"
-                                style="width: 2.5em; margin-bottom: -.25em; margin-left: 1em"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/joe-hutchinson-996920173/" target="_blank">
-                        <img src="assets/images/LinkedIn_icon.jpg" style="width: 2.5em; margin-bottom: -.25em; margin-left: 1em">
-                    </a>
-                    <a href="assets/pdfs/Joe Hutchinson Resume 12-1-2018.pdf" target="_blank">
-                        <img src="assets/images/resume_icon.png" style="width: 2.5em; margin-bottom: -.25em; margin-left: 1em">
-                    </a>
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    sPAWtted
+                  </p>
                 </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/sPawtted"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                  <p>
+                    <u class="unBold">Description:</u> (Collaboration)  sPAWtted is an app designed to allow the user to report lost cats & dogs.
+                  </p>
+                  <br />
+                  <p>
+                    <u class="unBold">Technologies Used:</u> MySQL, Handlebars, jQuery, Node.js
+                  </p>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://joelearns2code.github.io/TriviaGame/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/pirate.jpg"
+                    alt="pirate"
+                    style="width: 16em; height: 16em;"
+                /></a>
 
-            </footer>
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Pirate Trivia
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/TriviaGame"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A short, timed trivia game utilizing interval and timeout functions.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> HTML5, CSS3, jQuery</p>
+                  </div>
+              </div>
+            </div>
 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://joelearns2code.github.io/Gem-Hunter/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/dwarf.jpg"
+                    alt="miner dwarf"
+                    style="width: 16em; height: 16em;"
+                /></a>
 
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Gem Hunter
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/Gem-Hunter"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A simple number matching game where random values are generated and added together to attempt to equal a random value.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> HTML5, CSS3, jQuery</p>
+                  </div>
+              </div>
+            </div>
 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://github.com/JoeLearns2Code/Bamazon/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/Bamazon.gif"
+                    alt="bamazon"
+                    style="width: 16em; height: 16em;"
+                /></a>
 
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Bamazon
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/Bamazon"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A console-based program that simulates a simplified online retail site.  Inventory can be subtracted and added through use of customer and manager programs.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> MySQL, Node.js, JavaScript</p>
+                  </div>
+              </div>
+            </div>
 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://github.com/JoeLearns2Code/liri-node-app"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/liri_bot.gif"
+                    alt="liri"
+                    style="width: 16em; height: 16em;"
+                /></a>
 
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Liri-Bot
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/liri-node-app"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> LIRI Bot is a program that can retrieve information about bands on tour, songs, and movies. It takes in user inputs from a command terminal and pulls data from different API's based on these inputs in order to produce results.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> JavaScript, Node.js, Axios</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="justify-content: space-between">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://joelearns2code.github.io/Train-Scheduler/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/train.jpg"
+                    alt="train"
+                    style="width: 16em; height: 16em;"
+                /></a>
+
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Train-Scheduler
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/Train-Scheduler"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A train schedule simulator that uses Firebase to maintain persistent data.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> HTML5, CSS3, jQuery, Firebase</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://joelearns2code.github.io/GifTastic/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/fighter_GIPHY.gif"
+                    alt="Ken punch"
+                    style="width: 16em; height: 16em;"
+                /></a>
+
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    GIPHY Fighters
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/GifTastic"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A gif generating page created with a fighting game character theme. Images are pulled via AJAX from the GIPHY API.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> HTML5, CSS3, jQuery, AJAX</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a
+                  href="https://github.com/JoeLearns2Code/Constructor-Word-Guess"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/wordconstructor.gif"
+                    alt="word constructor"
+                    style="width: 16em; height: 16em;"
+                /></a>
+
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Word Guess Game
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/Constructor-Word-Guess"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A console-based word guess game that uses constructor functions to create game sessions and handle guess inputs from the user.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> JavaScript, Node.js</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://jl2cburgerapp.herokuapp.com/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/burger.PNG"
+                    alt="burger"
+                    style="width: 16em; height: 16em;"
+                /></a>
+
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Burger
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/Burger"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A program that uses MVC structure and allows the user to change the state of "burgers" from "ready" to "devoured" and back again, as well as add new burgers to the database.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> MySQL, JavaScript, Node.js, Handlebars</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://joelearns2code.github.io/Word-Guess-Game/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/darth-vaderimg.jpg"
+                    alt="Lord Vader"
+                    style="width: 16em; height: 16em;"
+                /></a>
+
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Star Wars Word Game
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/Word-Guess-Game"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A basic hangman game with a Star Wars theme.</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> HTML5, CSS3, JavaScript</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card" style="width: 16em; margin-bottom: 1em">
+                <a href="https://jl2cfriendfindapp.herokuapp.com/"
+                  ><img
+                    class="card-img-top"
+                    src="assets/images/friendfinder.PNG"
+                    alt="friend finder"
+                    style="width: 16em; height: 16em;"
+                /></a>
+
+                <div class="card-body" style="width: 16em">
+                  <p
+                    class="card-text"
+                    style="text-align: center; font-family:Arial, Helvetica, sans-serif; background:#228B22; color:#ffffff; margin: -1em; padding: 1em; font-size: 14pt"
+                  >
+                    Friend Finder
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/JoeLearns2Code/FriendFinder"
+                  style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #228B22; font-weight: bold"
+                  >View on GitHub</a
+                >
+                <div class="descTechText">
+                    <p><u class="unBold">Description:</u> A program that simulates a friend matching app, which matches the user with the most eligible friend based on responses to a series of 10 statements..</p>
+                    <br>
+                    <p><u class="unBold">Technologies Used:</u> HTML5, JavaScript, API</p>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
 
+        <footer
+          class="page-footer font-small grey fixed-bottom"
+          style="padding-top: 0vh; padding-bottom: 0vh; width: 100%; font-family: Arial, Helvetica, sans-serif; background-color:#343a40 !important; border-top: 3px solid #228B22; color: #ffffff"
+        >
+          <div class="footer-copyright text-center py-3">
+            Copyright©
+            <a href="https://github.com/JoeLearns2Code" target="_blank">
+              <i class="fa fa-github"
+                ><img
+                  src="assets/images/GitHub-Mark-32px.png"
+                  style="width: 2.5em; margin-bottom: -.25em; margin-left: 1em"
+              /></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/joe-hutchinson-996920173/"
+              target="_blank"
+            >
+              <img
+                src="assets/images/LinkedIn_icon.jpg"
+                style="width: 2.5em; margin-bottom: -.25em; margin-left: 1em"
+              />
+            </a>
+            <a
+              href="assets/pdfs/Joe Hutchinson Resume 8-2019-converted.pdf"
+              target="_blank"
+            >
+              <img
+                src="assets/images/resume_icon.png"
+                style="width: 2.5em; margin-bottom: -.25em; margin-left: 1em"
+              />
+            </a>
+          </div>
+        </footer>
+      </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
