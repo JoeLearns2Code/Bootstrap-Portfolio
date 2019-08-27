@@ -33,6 +33,23 @@ body {
 
 }
 
+.skill-title {
+
+  text-align: center;
+  font-family: 'El Messiri', sans-serif;
+  line-height: 25px;
+  font-size: 24pt;
+  text-decoration: underline;
+  margin-bottom: 1em;
+
+}
+
+.skill-list {
+
+  font-family: 'El Messiri', sans-serif;
+  font-size: 18pt;
+}
+
 #contact-form {
 
   font-family: 'Montserrat', sans-serif;
